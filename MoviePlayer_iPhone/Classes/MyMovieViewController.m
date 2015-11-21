@@ -162,7 +162,9 @@ CGFloat kMovieViewOffsetY = 20.0;
     
 	[player.view removeFromSuperview];
 }
-
+- (void)test{
+    
+}
 #pragma mark Error Reporting
 
 -(void)displayError:(NSError *)theError
